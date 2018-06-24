@@ -30,8 +30,20 @@ nightMode: true
 
 # Comments 评论功能
 comments:
-  disqus: false
+  disqus: true
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+
+  # gitalk comments by tea9
+  # 相关配置请看 http://note.youdao.com/noteshare?id=6ea132ba501b49b2928125a694cc9ad9
+  gitalk: true
+  gitalk_clientID: ''
+  gitalk_Secret: ''
+  gitalk_repo: 'tea9.github.io'
+  gitalk_owner: 'test'
+  gitalk_admin: 'test'
+  distractionFreeMode: false
+
+
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
