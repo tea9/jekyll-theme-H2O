@@ -425,6 +425,27 @@ disqus_url: 'https://你的disqus账户名.disqus.com/embed.js'
 
 注：`disqus` 默认值为 `false`
 
+#### Gitalk
+
+[Gitalk](https://github.com/gitalk/gitalk) 是一个基于 GitHub Issue 和 Preact 开发的评论插件。
+
+模板默认关闭Gitalk评论插件，如需关闭请在 `_config.yml` 中配置参数 `true` (开启) 或者 `false` (关闭) :  
+
+在配置文件 `_config.yml` 中找到Gitalk的相关配置，设置 `gitalk` 参数为 `true` 打开gitalk评论功能，并且设置相关配置。
+
+相关配置请参考 [Gitalk相关配置](https://tea9.github.io/2018/06/24/gitali_config.html)
+
+
+```
+  gitalk: false
+  gitalk_clientID: ''
+  gitalk_Secret: ''
+  gitalk_repo: 'tea9.github.io'
+  gitalk_owner: 'test'
+  gitalk_admin: 'test'
+  distractionFreeMode: false
+```
+
 #### Share.js
 
 为了让文章更方便地分享，使用了第三方分享插件[Share.js](http://overtrue.me/share.js/)，支持一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站。

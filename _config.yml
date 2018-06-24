@@ -35,7 +35,7 @@ comments:
 
   # gitalk comments by tea9
   # 相关配置请看 http://note.youdao.com/noteshare?id=6ea132ba501b49b2928125a694cc9ad9
-  gitalk: true
+  gitalk: false
   gitalk_clientID: ''
   gitalk_Secret: ''
   gitalk_repo: 'tea9.github.io'
